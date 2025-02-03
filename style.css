@@ -1,0 +1,49 @@
+body {
+    background-color: #ffccdc;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #d63384;
+}
+
+.gif {
+    width: 250px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.yes {
+    background-color: #ff4081;
+}
+
+.no {
+    background-color: #555;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
